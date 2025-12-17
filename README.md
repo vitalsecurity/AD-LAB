@@ -6,15 +6,12 @@ The  Defensive Origins Lab (DO-LAB) Environment is used during the Defensive Ori
 
 * [Deploy Lab Environment](#deploy-lab-environment)
 	* [Azure Cloud Locations/Regions](#azure-cloud-locationsregions)
-	* [Training Course Pre-Requisites](#training-course-pre-requisites)
 * [Lab Environment](#lab-environment)
 * [Upcoming Classes](#upcoming-classes)
 * [Acknowledgments](#acknowledgments)
 * [License](#license)
 
 <!-- End Document Outline -->
-
-
 
 # Deploy Lab Environment
 
@@ -28,18 +25,6 @@ The following locations have specifically been tested:
 * US East (any)
 * US West (any)
 * US Central (any)
-
-## Training Course Pre-Requisites
-Are you attending a Defensive Origins training course that utilizes the Defensive Origins Azure Lab Environment?  See the below links for additional information on the DOAZLab Pre-Requisites for Defensive Origins training courses. 
-
-Assumed Compromise - Methodology With Detections and Microsoft Sentinel
-* https://github.com/DefensiveOrigins/AC-PreReqs
-
-Attack Detect Defend:
-* https://github.com/DefensiveOrigins/ADD-PreReqs
-
-Applied Purple Teaming:
-* https://github.com/DefensiveOrigins/APT-PreReqs
 
 ## Lab Environment
 * Windows Server 2022 /w Active Directory.
