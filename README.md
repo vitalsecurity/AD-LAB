@@ -7,7 +7,6 @@ The  Defensive Origins Lab (DO-LAB) Environment is used during the Defensive Ori
 * [Deploy Lab Environment](#deploy-lab-environment)
 	* [Azure Cloud Locations/Regions](#azure-cloud-locationsregions)
 * [Lab Environment](#lab-environment)
-* [Upcoming Classes](#upcoming-classes)
 * [Acknowledgments](#acknowledgments)
 * [License](#license)
 
