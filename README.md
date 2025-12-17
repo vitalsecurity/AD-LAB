@@ -58,7 +58,8 @@ Applied Purple Teaming:
 * Microsoft Sentinel2Go: https://github.com/OTRF/Microsoft-Sentinel2Go
 * OTRF Blacksmith Components: https://github.com/OTRF/Blacksmith
 * Roberto Rodriguez (@Cyb3rWard0g)
-* Sysmon Modular: https://github.com/olafhartong/sysmon-modular/wiki 
+* Sysmon Modular: https://github.com/olafhartong/sysmon-modular/wiki
+* Defensive Origins: https://github.com/DefensiveOrigins/DO-LAB 
 
 # License
  * GPLv3
