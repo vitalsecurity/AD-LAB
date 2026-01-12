@@ -48,7 +48,7 @@ sed -e '/mibs/ s/^#*/#/' -i /etc/snmp/snmp.conf
 [[ ! -d /opt/Responder ]] && git clone https://github.com/lgandx/Responder.git /opt/Responder
 [[ ! -d /opt/impacket ]] && git clone https://github.com/fortra/impacket.git /opt/impacket
 [[ ! -d /opt/BloodHound.py ]] && git clone https://github.com/fox-it/BloodHound.py.git /opt/BloodHound.py
-[[ ! -d /opt/Certipy ]] && git clone https://github.com/DefensiveOrigins/certipy.git /opt/Certipy
+[[ ! -d /opt/Certipy ]] && git clone https://github.com/DefensiveOrigins/Certipyv5.git /opt/Certipy
 [[ ! -d /opt/Coercer ]] && git clone https://github.com/p0dalirius/Coercer.git /opt/Coercer
 [[ ! -d /opt/mitm6 ]] && git clone https://github.com/dirkjanm/mitm6.git /opt/mitm6
 [[ ! -d /opt/PCredz ]] && git clone https://github.com/lgandx/PCredz.git /opt/PCredz
@@ -56,6 +56,7 @@ sed -e '/mibs/ s/^#*/#/' -i /etc/snmp/snmp.conf
 [[ ! -d /opt/pyLAPS ]] && git clone https://github.com/p0dalirius/pyLAPS.git /opt/pyLAPS
 [[ ! -d /opt/PlumHound ]] && git clone https://github.com/PlumHound/PlumHound.git /opt/PlumHound
 [[ ! -d /opt/CrackMapExec ]] && git clone https://github.com/byt3bl33d3r/CrackMapExec.git /opt/CrackMapExec
+[[ ! -d /opt/NetExec ]] && git clone https://github.com/Pennyw0rth/NetExec.git
 
 cat << 'EOF' >> "${HOME}/.screenrc"
 termcapinfo * ti@:te@
@@ -147,9 +148,9 @@ install_pipx() {
 install_pipx
 
 #Fix Certipy
-cd /opt/Certipy
-source /root/pyenv/Certipy/bin/activate
-pip3 uninstall pyOpenSSL -y
-pip3 install pyOpenSSL==24.0.0
-python3 setup.py install
-deactivate
+# cd /opt/Certipy
+# source /root/pyenv/Certipy/bin/activate
+# pip3 uninstall pyOpenSSL -y
+# pip3 install pyOpenSSL==24.0.0
+# python3 setup.py install
+# deactivate
